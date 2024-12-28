@@ -26,8 +26,6 @@ Each line in the trace file consists of two columns:
 ---
 
 ## Running the Simulator
-
-### For One-Level Cache Simulation (L1 cache)
 ```bash
 To run the one-level cache simulator (L1), use the following command format in first/:
 
