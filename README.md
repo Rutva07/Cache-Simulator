@@ -34,7 +34,8 @@ To run the one-level cache simulator (L1), use the following command format in f
 ```bash
 ./first <cache_size> <assoc:n> <cache_policy> <block_size> <trace_file>
 
-./first 32 assoc:2 fifo 4 trace1.txt
+./first 32 assoc:2 fifo 4 trace1.txt &
+
 
 To run the two-level cache simulator (L2), use the following command format in second/:
 
