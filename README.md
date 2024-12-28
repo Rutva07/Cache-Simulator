@@ -21,10 +21,10 @@ Each line in the trace file consists of two columns:
 ### LRU (Least Recently Used)
 - The cache evicts the least recently accessed block when space is needed.
 
-For running one level cache(first/)
-./first <cache_size> <assoc:n> <cache_policy> <block_size> <trace_file>
-Ex: ./first 32 assoc:2 fifo 4 trace1.txt
+###For running one level cache(first/)
+-./first <cache_size> <assoc:n> <cache_policy> <block_size> <trace_file>
+-Ex: ./first 32 assoc:2 fifo 4 trace1.txt
 
-For running two level cache(second/)
- ./second <L1 cache size> <L1 associativity> <L1 cache policy> <L1 block size> <L2 cache size> <L2 associativity> <L2 cache policy> <trace file>
- Ex:  ./second 32 assoc:2 fifo 4 64 assoc:16 lru trace2.txt
+###For running two level cache(second/)
+ -./second <L1 cache size> <L1 associativity> <L1 cache policy> <L1 block size> <L2 cache size> <L2 associativity> <L2 cache policy> <trace file>
+ -Ex:  ./second 32 assoc:2 fifo 4 64 assoc:16 lru trace2.txt
