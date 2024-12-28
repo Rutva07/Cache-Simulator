@@ -16,10 +16,8 @@ Each line in the trace file consists of two columns:
 2. **Memory Address** (a 48-bit address, e.g., `0x9cb3d40`)
 
 ## Cache Replacement Policies
-
 ### FIFO (First In, First Out)
 - The cache evicts the block that was accessed first when space is needed.
-
 ### LRU (Least Recently Used)
 - The cache evicts the least recently accessed block when space is needed.
 
